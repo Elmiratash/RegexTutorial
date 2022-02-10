@@ -33,7 +33,7 @@ The code inside the opening and closing anchors is where the action is. This cod
 
 ### Quantifiers
 
-Quantifiers communicate to the regex engine that it must match the quantity of the character or expression to its left. These are the quatifiers that are used in regex:
+Quantifiers communicate to the regex engine that it must match the quantity of the character or expression to its left. These are the qualifiers that are used in regex:
   ?, +, *, {n}, {n, }, {n,m}
   In the URL matching regex they are used in the following places:
 
@@ -45,7 +45,7 @@ Quantifiers communicate to the regex engine that it must match the quantity of t
 
 
 ### Grouping and Capturing
-The use of grouping expressions is to allow for the extraction of the characters of a given group for validation. The text between paranthesis is a group.
+The use of grouping expressions is to allow for the extraction of the characters of a given group for validation. The text between parenthesis is a group.
 
     (https?:\/\/)       Matches: ' ', 'https://', 'http://'
     ([\da-z\.-]+)       Matches: 'ab.c-7', 'ab'
